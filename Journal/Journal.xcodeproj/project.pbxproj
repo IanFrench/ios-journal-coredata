@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C4F25A2249096AD0008A071 /* EntryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4F25A1249096AD0008A071 /* EntryDetailViewController.swift */; };
 		3C914DD8248881A3005D8B37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C914DD7248881A3005D8B37 /* AppDelegate.swift */; };
 		3C914DDA248881A3005D8B37 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C914DD9248881A3005D8B37 /* SceneDelegate.swift */; };
 		3C914DDC248881A3005D8B37 /* CreateEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C914DDB248881A3005D8B37 /* CreateEntryViewController.swift */; };
@@ -21,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C304040248DD12E0046FA75 /* Journal .xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Journal .xcdatamodel"; sourceTree = "<group>"; };
+		3C304041248DD2A20046FA75 /* Journal 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Journal 2.xcdatamodel"; sourceTree = "<group>"; };
+		3C4F25A1249096AD0008A071 /* EntryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryDetailViewController.swift; sourceTree = "<group>"; };
 		3C914DD4248881A3005D8B37 /* Journal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Journal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C914DD7248881A3005D8B37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C914DD9248881A3005D8B37 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +106,7 @@
 			children = (
 				3C914DDB248881A3005D8B37 /* CreateEntryViewController.swift */,
 				3C914DEE248882C5005D8B37 /* EntriesTableViewController.swift */,
+				3C4F25A1249096AD0008A071 /* EntryDetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -184,6 +189,7 @@
 				3C914DF824888345005D8B37 /* Entry+Convenience.swift in Sources */,
 				3C914DF324888300005D8B37 /* CoreDataStack.swift in Sources */,
 				3C914DD8248881A3005D8B37 /* AppDelegate.swift in Sources */,
+				3C4F25A2249096AD0008A071 /* EntryDetailViewController.swift in Sources */,
 				3C914DDA248881A3005D8B37 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,9 +391,11 @@
 		3C914DF424888328005D8B37 /* Journal.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				3C304041248DD2A20046FA75 /* Journal 2.xcdatamodel */,
+				3C304040248DD12E0046FA75 /* Journal .xcdatamodel */,
 				3C914DF524888328005D8B37 /* Journal.xcdatamodel */,
 			);
-			currentVersion = 3C914DF524888328005D8B37 /* Journal.xcdatamodel */;
+			currentVersion = 3C304041248DD2A20046FA75 /* Journal 2.xcdatamodel */;
 			path = Journal.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
